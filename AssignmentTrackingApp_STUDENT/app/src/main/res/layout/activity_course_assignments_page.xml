@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.feranmi.assignmenttrackingapp_STUDENT.CourseAssignmentsPage"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/vamkLogo"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tunnus"
+        android:autoLink="web"
+        android:contentDescription="@string/vamk_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/course_assignment_page"
+        android:id="@+id/courseAssignmentsPage"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Course Assignments Page"
+        android:id="@+id/selectedCourseName"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_weight="0.04" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/teacherCourseAssignmentsListView"
+        android:layout_weight="0.58"
+        android:paddingTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_page"
+            android:paddingLeft="15dp"
+            android:id="@+id/homePage"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:autoLink="all"
+            android:onClick="HomePage"
+            android:textColor="#0a0915" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:id="@+id/logout"
+            android:paddingRight="15dp"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:autoLink="all"
+            android:onClick="Logout"
+            android:textColor="#0a0915" />
+    </LinearLayout>
+
+</LinearLayout>

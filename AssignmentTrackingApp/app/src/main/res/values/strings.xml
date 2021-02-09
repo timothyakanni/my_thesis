@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">AssignmentTrackingApp</string>
+    <!--Login Page Strings-->
+    <string name="vamk_logo">Vamk Logo <a href="http://www.puv.fi/en/"></a></string>
+    <string name="if_not_register_click">If not register, Click</string>
+    <string name="here"><u>here</u></string>
+    <string name="if_not_Enroll_click">If not Enrolled, Click</string>
+    <string name="enroll"><u>Enroll</u></string>
+
+
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+
+    <!--Teacher Login Page Strings-->
+    <string name="teacher_username">Teacher Username</string>
+    <string name="teacher_login_page">Teacher Login Page</string>
+
+    <!--Teacher Course Assignment Page Strings-->
+    <string name="course_assignment_page">Course Assignments Page</string>
+
+    <!--Teacher Assignment Marking Page Strings-->
+    <string name="assignment_marking_page">Assignment Marking Page</string>
+    <string name="mark_assignment">MARK ASSIGNMENT</string>
+
+    <!--Teacher Course Students Page Strings-->
+    <string name="course_students_page">Course Students Page</string>
+
+    <!--Student Login Page Strings-->
+    <string name="student_username">Student Username</string>
+    <string name="student_login_page">Student Login Page</string>
+    <string name="error"></string>
+
+    <!--Student Assignment Page Strings-->
+    <string name="student_assignment_page">Student Assignment Page</string>
+    <string name="available_assignment">Available Assignment</string>
+    <string name="submitted_assignment">Submitted Assignment</string>
+    <string name="submission_rate">Submission Rate</string>
+    <string name="submission_rate_value">0%</string>
+
+    <!--Course Enrollment Page Strings-->
+    <string name="course_enrollment_page">Course Enrollment Page</string>
+    <string name="course_enroll">ENROLL</string>
+
+    <!--Student Registration Page Strings-->
+    <string name="student_registration_page">Student Registration Page</string>
+    <string name="studentPassword">Password</string>
+    <string name="studentRegister">Register</string>
+
+    <!--Teacher Registration Page Strings-->
+    <string name="teacher_registration_page">Teacher Registration Page</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="teacherPassword">Password</string>
+    <string name="teacherRegister">Register</string>
+
+    <string name="home_page">Home Page</string>
+    <string name="logout"><u>Logout</u></string>
+    <string name="addCourse"><u>Add Course</u></string>
+    <string name="addAssignment"><u>Add Assignment</u></string>
+
+    <!--Add Course Page Strings-->
+    <string name="add_course_page">Add Course Page</string>
+    <string name="course_id">Course ID</string>
+    <string name="course_name">Name</string>
+    <string name="course_description">Description</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="course_password">Course Password</string>
+    <string name="add_course">Add Course</string>
+
+    <!--Add Assignment Page Strings-->
+    <string name="add_assignment_page">Add Assignment Page</string>
+    <string name="assignment_id">Assignment ID</string>
+    <string name="select_course_name">Select Course Name</string>
+    <string name="assignment_description">Description</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="select_course_id">Select Course ID</string>
+    <string name="add_assignment">Add Assignment</string>
+    <string name="title_activity_student_page">StudentPage</string>
+    <string name="title_activity_student_assignment_page">StudentAssignmentPage</string>
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.feranmi.assignmenttrackingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--This display the first page of the application and the activity for teacher login page-->
+        <activity android:name=".TeacherLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for student login page-->
+        <activity android:name=".StudentLogin">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.StudentLogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for teacher registration page-->
+        <activity android:name=".TeacherRegistration">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.TeacherRegistration" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for student registration page-->
+        <activity android:name=".StudentRegistration">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.StudentRegistration" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for student page-->
+        <activity android:name=".StudentPage">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.StudentPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for teacher page-->
+        <activity android:name=".TeacherPage">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.TeacherPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for add course page-->
+        <activity android:name=".AddCourse">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.AddCourse" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for add assignment page-->
+        <activity android:name=".AddAssignment">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.AddAssignment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!--This is the activity for student assignment page-->
+        <activity android:name=".StudentAssignmentPage">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.StudentAssignmentPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for course enrollment page-->
+        <activity android:name=".CourseEnrollmentPage">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.CourseEnrollmentPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for course assignment page-->
+        <activity android:name=".CourseAssignmentsPage">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.CourseAssignmentsPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for course students page-->
+        <activity android:name=".CourseStudentsPage">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.CourseStudentsPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--This is the activity for assignment marking page-->
+        <activity android:name=".AssignmentMarkingPage">
+            <intent-filter>
+                <action android:name="com.example.feranmi.assignmenttrackingapp.AssignmentMarkingPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
